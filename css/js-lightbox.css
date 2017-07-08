@@ -78,3 +78,20 @@
     margin: 0;
     cursor: pointer;
 }
+
+.noscroll {
+    overflow: hidden;
+    position: fixed;
+    width: 100%;
+}
+
+.tx-pxa-social-feed {
+    position: relative;
+}
+
+.tx-pxa-social-feed .btn {
+    margin: 50px auto;
+    text-align: center;
+    width: auto;
+    display: inline-block;
+}
