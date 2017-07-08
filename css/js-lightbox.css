@@ -95,3 +95,85 @@
     width: auto;
     display: inline-block;
 }
+
+.expanded-wrapper {
+    z-index: 1111;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(12, 12, 12, 0.8);
+    width: 100vw;
+    height: 100%;
+}
+
+.expanded-wrapper > div {
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: auto;
+}
+
+.icon-thumbsup:before {
+    content: "\e648";
+}
+
+
+
+.icon-arrow-left:before {
+    content: "\e66e";
+}
+
+
+.icon-arrow-down2:before {
+    content: "\e673";
+}
+
+.icon-arrow-up2:before {
+    content: "\e674";
+}
+
+
+.icon-arrow-down5:before {
+    content: "\ff";
+}
+
+
+.icon-arrow-left6:before {
+    content: "\102";
+}
+
+.icon-arrow-down6:before {
+    content: "\103";
+}
+
+
+.icon-arrow-right6:before {
+    content: "\105";
+}
+.icon-cancel-circle:before {
+    content: "\e6ab";
+}
+
+
+.iconsarrow-right2:before {
+    content: "\e616";
+}
+
+.iconsarrow-right3:before {
+    content: "\e61c";
+}
+
+.iconsarrow-right5:before {
+    content: "\101";
+}
+
+.iconsarrow-right-thick:before {
+    content: "\e618";
+}
+
+.iconscircle-cross:before {
+    content: "\e61c";
+}
