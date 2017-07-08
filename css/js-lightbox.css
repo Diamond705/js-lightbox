@@ -1,3 +1,24 @@
+/*Image backgrounds*/
+.index0img {
+    background-image: url(../img/img001.png);
+}
+.index1img {
+    background-image: url(../img/img002.png);
+}
+.index2img {
+    background-image: url(../img/img003.png);
+}
+.index3img {
+    background-image: url(../img/img004.png);
+}
+.index4img {
+    background-image: url(../img/img005.png);
+}
+.index5img {
+    background-image: url(../img/img006.png);
+}
+
+
 .expanded-button {
     text-align: center;
 }
