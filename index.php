@@ -20,23 +20,23 @@
         <div class="row">
             <div class="expanded-col-60">
 
-                <div class="expanded-col-1 expanded-carousel index0img" data-index="0" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index0img" data-index="0" data-username="" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img001.png" data-posturl="#">
                 </div>
-                <div class="expanded-col-1 expanded-carousel index1img" data-index="1" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index1img" data-index="1" data-username="your-username" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img002.png" data-posturl="#">
                 </div>
-                <div class="expanded-col-1 expanded-carousel index2img" data-index="2" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index2img" data-index="2" data-username="your-username" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img003.png" data-posturl="#">
                 </div>
-                <div class="expanded-col-1 expanded-carousel index3img" data-index="3" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index3img" data-index="3" data-username="your-username" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img004.png" data-posturl="#">
                 </div>
-                <div class="expanded-col-1 expanded-carousel index4img" data-index="4" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index4img" data-index="4" data-username="your-username" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img005.png" data-posturl="#">
                 </div>
-                <div class="expanded-col-1 expanded-carousel index5img" data-index="5" data-username="" data-imagetext="" data-location=""
-                    data-likes="" data-dislikes="" data-imagepath="" data-posturl="#">
+                <div class="expanded-col-1 expanded-carousel index5img" data-index="5" data-username="your-username" data-imagetext="caption and comments"
+                    data-likes="0" data-dislikes="0" data-imagepath="img/img006.png" data-posturl="#">
                 </div>
 
             </div>
