@@ -79,6 +79,156 @@
     cursor: pointer;
 }
 
+.expanded-item-meta-user,
+.expanded-item-meta-likes {
+    display: block;
+    float: left;
+    width: 60%;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.expanded-item-meta-likes {
+    width: 40%
+}
+
+.expanded-item-meta-likes {
+    text-align: right;
+}
+
+.expanded-wrapper {
+    z-index: 1111;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: rgba(12, 12, 12, 0.8);
+    width: 100vw;
+    height: 100%;
+}
+
+.expanded-wrapper > div {
+    z-index: 2;
+    position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    width: auto;
+}
+
+.expanded-scrollbox {
+    display: block;
+    // max-height - set by javascript
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.expanded-modal .container {
+    padding: 0;
+    font-family: "SwedenSans", Helvetica, Arial, sans-serif;
+    font-size: 18px;
+    color: #eee;
+    position: relative;
+    border-radius: 2px;
+    padding-right: 334px;
+    position: relative;
+    width: 930px;
+}
+
+.expanded-modal p {
+    font-size: 13px;
+    font-weight: normal;
+    max-height: 290px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    letter-spacing: 0.04em;
+}
+
+.expanded-modal a {
+    color: rgb(253, 98, 94);
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.expanded-modal-image,
+.expanded-modal-text {
+    width: 100%;
+    float: left;
+}
+
+.expanded-modal-text {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 335px;
+    height: 100%;
+}
+
+.expanded-modal-text:hover {
+    // ie10 transform glitch fix
+    background-color: #fffffe;
+}
+
+.expanded-modal-image img {
+    max-width: 100%;
+    width: 100%;
+}
+
+.expanded-modal-location {
+    margin-top: -3px;
+    font-size: 16px;
+}
+
+.expanded-item-modal-likes {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.expanded-item-modal-likes .icon-heart {
+    top: 3px;
+    font-size: 25px;
+    color: red;
+    float: left;
+    margin-right: 5px;
+}
+
+.expanded-item-modal-likes .icon-arrow-up2 {
+    top: 3px;
+    font-size: 25px;
+    color: red;
+    float: left;
+    margin-right: 5px;
+}
+
+.expanded-item-modal-likes .icon-arrow-down2 {
+    top: 3px;
+    font-size: 25px;
+    color: red;
+    float: left;
+    margin-right: 5px;
+}
+
+.expanded-modal-text {
+    background-color: #333;
+    padding: 25px;
+}
+
+.expanded-modal-text span {
+    display: block;
+}
+
+.expanded-modal .iconscircle-cross {
+    cursor: pointer;
+    right: -30px;
+    top: -35px;
+    position: absolute;
+    z-index: 1;
+    font-size: 35px;
+    color: #eee;
+}
+
 .noscroll {
     overflow: hidden;
     position: fixed;
@@ -114,6 +264,21 @@
     transform: translate(-50%, -50%);
     max-width: 100%;
     width: auto;
+}
+
+.icons() {
+    font-family: 'icons';
+    speak: none;
+    position: relative;
+    top: 1px;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .icon-thumbsup:before {
