@@ -94,4 +94,12 @@ jQuery(function ($) {
         }, 0);
     };
 
+    // Avoid break on small devices
+    var expandedScrollMaxHeight = function() {
+        if ($('.expanded-scrollbox').length) {
+            maxHeight = $(window).height()-100;
+            $('.expanded-scrollbox').css('max-height',maxHeight+'px');
+        }
+    }
+
 });
