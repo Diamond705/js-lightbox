@@ -322,6 +322,70 @@
     width: auto;
 }
 
+@media (min-width: 3000px) {
+    .expanded-grid {
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 1200px) {
+    .expanded-modal .container {
+        padding-right: 0;
+        width: 100%;
+    }
+    .expanded-modal-image {
+        width: 100%;
+    }
+    .expanded-item-modal-likes {
+        margin-bottom: 10px;
+    }
+    .expanded-modal p {
+        max-height: 100%;
+    }
+    .expanded-modal-text {
+        text-align: left;
+        position: relative;
+        bottom: auto;
+        right: auto;
+        width: 100%;
+    }
+}
+
+@media only screen and (min-width: 940px) and (max-width: 1200px) and (orientation: landscape) {
+    .expanded-modal .container {
+        padding-right: 334px;
+        width: 850px;
+    }
+    .expanded-modal-text {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        width: 335px;
+        height: 100%;
+    }
+    .expanded-right {
+        right: -130px;
+    }
+    .expanded-left {
+        left: -10px;
+    }
+}
+
+@media (max-width: 767px) {
+    .expanded-modal-text {
+        width: 100%;
+    }
+    .expanded-wrapper > div {
+        width: 50%;
+    }
+}
+
+@font-face {
+    font-family: 'icons';
+    src: url('../icons/icons.eot');
+    src: url('../icons/icons.eot?#iefix') format('embedded-opentype'), url('../icons/icons.woff') format('woff'), url('../icons/icons.ttf') format('truetype'), url('../icons/icons.svg#icons') format('svg');
+}
+
 .icons() {
     font-family: 'icons';
     speak: none;
