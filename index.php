@@ -43,10 +43,14 @@
         </div>
     </div>
 
+    <!--scripts-->
+
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <!--<script type="text/javascript" src="js/bootstrap.min.js"></script>-->
+    <script type="text/javascript" src="js/js-lightbox.js"></script>
+
 </body>
 
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/js-lightbox.js"></script>
+
 
 </html>
