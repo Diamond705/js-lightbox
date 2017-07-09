@@ -95,11 +95,22 @@ jQuery(function ($) {
     };
 
     // Avoid break on small devices
-    var expandedScrollMaxHeight = function() {
+    var expandedScrollMaxHeight = function () {
         if ($('.expanded-scrollbox').length) {
-            maxHeight = $(window).height()-100;
-            $('.expanded-scrollbox').css('max-height',maxHeight+'px');
+            maxHeight = $(window).height() - 100;
+            $('.expanded-scrollbox').css('max-height', maxHeight + 'px');
         }
     }
+
+    $(window).resize(function () { // set event on resize
+        clearTimeout(this.id);
+        this.id = setTimeout(expandedScrollMaxHeight, 100);
+    });
+    document.onkeydown = function (evt) {
+        evt = evt || window.event;
+        if (evt.keyCode == 27) {
+            removeModal();
+        }
+    };
 
 });
